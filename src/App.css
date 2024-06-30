@@ -79,8 +79,6 @@ img {
   display: flex;
   flex-flow: row nowrap;
   border: 1px solid red;
-  /* padding-right: 10px; */
-  /* width: 300px; */
 }
 
 .add-btn {
@@ -96,7 +94,7 @@ img {
   padding: 8px;
   font-size: 15px;
   border-radius: 4px;
-  height: 36px;
+  /* height: 36px; */
   transition: all 80ms linear;
 }
 
@@ -137,7 +135,7 @@ img {
   font-size: 20px;
   font-weight: 600;
   line-height: 28px;
-  padding: 12px 20px;
+  padding: 5px 5px;
   text-align:center;
   transition-duration: .15s;
   transition-property: all;
