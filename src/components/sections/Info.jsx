@@ -5,6 +5,13 @@ import Edit from '../buttons/Edit.jsx'
 
 
 function Info() {
+    let infoData = {
+        first : 'firstName',
+        last : 'LastName',
+        phone : '123456789',
+        email: 'first.last@gmail.com'
+    };
+
     return (
     <section className='card'>
         <section className='btn-container'>
@@ -12,7 +19,7 @@ function Info() {
         <Edit />
         </section>
         <section className='content' id='info-content'>
-            Name: First Last<br />Phone: 123-456-7890<br />Email: first.last@gmail.com
+            {infoData.first + ' ' + infoData.last}<br />{infoData.phone}<br />{infoData.email}
         </section>
         
         

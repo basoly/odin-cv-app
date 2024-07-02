@@ -1,15 +1,24 @@
 import Add from '../buttons/Add.jsx'
 import Edit from '../buttons/Edit.jsx'
+import { eduData } from '../../assets/expData.js'
 
 function Education() {
+
     return (
-        <section className='card'>
+    <section className='card'>
         <section className='btn-container'>
-        <Add />
-        <Edit />
+            <Add />
+            <Edit />
         </section>
         <section className='content' id='info-content'>
-            College University<br />Bachelor of Science<br />City, Country
+            <ul>{eduData.map((entry) => {
+                    let text = <li key={entry.institution}>{entry.institution}, {entry.degree}, {entry.location}, {entry.date}</li>
+
+                    return text
+                        
+                    
+                })}
+            </ul>
         </section>
         
         

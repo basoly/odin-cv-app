@@ -78,7 +78,7 @@ img {
 .btn-container {
   display: flex;
   flex-flow: row nowrap;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .add-btn {
@@ -87,7 +87,7 @@ img {
   margin-right:0;
   outline: 0;
   cursor: pointer;
-  border: 1px solid #007a5a;
+  border: 2px solid #007a5a;
   color: #007a5a;
   font-weight: 700;
   background: #fff;
@@ -132,7 +132,7 @@ img {
   border-radius: 3px;
   color: #000;
   background: #fff;
-  font-size: 20px;
+  font-size: 10px;
   font-weight: 600;
   line-height: 28px;
   padding: 5px 5px;
@@ -147,7 +147,7 @@ img {
 }
 
 .content {
-  border: 1px dashed black;
+  border: 1px dashed #F0F0F0;
   padding-bottom: 50px;
 
   margin-top: 20px;
