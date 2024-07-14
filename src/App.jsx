@@ -8,12 +8,9 @@ import Experience from './components/sections/Experience.jsx'
 
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <>
-      <Info>
-      </Info>
+      <Info />
       <Education />
       <Experience />
     </>
